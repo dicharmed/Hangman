@@ -1,7 +1,7 @@
 let isWasted = ''
 let span = document.querySelector('#puzzle')
 let res = document.querySelector('#res-js')
-let inputBox = document.querySelector('#guess-letter-js')
+// let inputBox = document.querySelector('#guess-letter-js')
 
 
 class Hangman {

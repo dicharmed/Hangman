@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hangman</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="container">
         <div class="puzzle" id="puzzle"></div>
 
-        <div class="input-block">
+        <!-- <div class="input-block">
             <input type="text" id="guess-letter-js" value=""/>
-        </div>        
+        </div>         -->
         
-        <div id="res-js"></div>
+        <div id="res-js" class="guesses"></div>
 
         <div class="btn-wrapper">
             <button class="button" id="btn-reset">Reset</button>
         </div>
     </div>
-    <script src="request.js"></script>
-    <script src="app.js"></script>    
-    <script src="functions.js"></script>
-    
+    <script src="scripts/request.js"></script>
+    <script src="scripts/app.js"></script>    
+    <script src="scripts/functions.js"></script>    
 </body>
 </html>

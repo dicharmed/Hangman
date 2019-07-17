@@ -1,0 +1,39 @@
+body {
+    background-color: #130a24;
+    color: #ffffffd4
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;    
+}
+.letter-element {
+    margin: 0 7px;
+    padding: 0 7px;
+    font-size: 25px;    
+}
+
+.letter-element--border-bottom {
+    border-bottom: 1px solid #ffffff6b;
+}
+
+.guesses {
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+.button {
+    width: 200px;
+    padding: 12px;
+    background-color: #5a1d64;
+    border: 1px solid #5a1d64;
+    color: #ffffffb5;    
+    cursor: pointer;  
+    outline: none;  
+}
+
+.button:hover {
+    background-color: #8a3797;
+}
